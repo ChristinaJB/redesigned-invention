@@ -1,0 +1,95 @@
+
+/* nav styling starts here */
+nav{
+    margin: 0;
+}
+
+
+.navbar .brand{
+    padding: 0;
+}
+
+.navbar .nav-item{
+    margin-left: 1em;
+}
+
+.navbar .nav-item:hover{
+    background:lightgray;
+    color:black;
+
+}
+
+.navbar .btn{
+   margin: .1em;
+  background-image: linear-gradient(grey,lightgrey);
+
+}
+
+
+/* body styling starts */
+html, body{
+    background:url("file:///home/christinaj2/Desktop/BootCampProjects/christina_j/bootstrap/Project2/ContactPage/img/background3.jpg") 
+    center center no-repeat;
+    /* So that the background fills the scree height not matter
+    what device is being  used. */
+    height: 100%;
+    /* To make sure the image can fit on the entire screen. */
+    background-size: cover;}
+
+ body{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+#intro p{
+    font-size: 3.5em;
+    margin-top: 20%;
+    margin-bottom: 30%;
+}
+
+form #under{
+    margin-top:1%;
+}
+
+form #over{
+    font-size: 1em;
+   padding-top: 10%;
+    /* margin:0 auto; */
+}
+
+form .checkbox{
+    margin-top: 5%;
+}
+
+form .btn{
+    margin-top:2%; 
+}
+
+.para1, .para2{
+    font-size: 1.5em;
+}
+
+/* footer styling starts here */
+
+body > footer .navbar{
+    padding-top: 80px;
+   
+}
+
+footer{
+    margin-top: 10%;
+}
+
+  footer ul{
+    display:inline-block;
+    list-style:none;
+    
+  }
+  footer .brand2{
+      margin-left: 5%;
+  }
+
+  
+ 
+
+
