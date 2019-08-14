@@ -1,3 +1,5 @@
+![alt text](https://raw.githubusercontent.com/ChristinaJB/redesigned-invention/master/FavMovies.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
