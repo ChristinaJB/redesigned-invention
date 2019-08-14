@@ -1,0 +1,19 @@
+<% include partials/header.ejs %>
+
+<h1>BitCoin Price App</h1>
+<form action="/index" method="get">
+<input type="radio" name="bitCoinRate" value="USD" checked>USD
+<input type="radio" name="bitCoinRate" value="GBP">GBP
+<input type="radio" name="bitCoinRate" value="EUR">EUR<br>
+<input id ="btn" type="submit" value="Get Price">
+</form>
+
+
+<h2>This is the current price:</h2>
+<p><%-symbol%><%=insertRate%></p>
+
+
+
+
+
+<% include partials/footer.ejs %>

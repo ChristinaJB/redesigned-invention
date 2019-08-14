@@ -1,0 +1,19 @@
+<% include partials/header.ejs %>
+
+<body id="homePage">
+
+<% include partials/nav.ejs %>
+
+<div class="container home">
+    <div class="row">
+        <div class="col-lg-12 font-weight-bolder">
+            <form action="/searchresults" method="get">
+                <h1 class="text-uppercase display-3 text-light">In the mood to catch a flick? See what movies are playing now!</h1>
+                <input type="submit" class="btn btn-warning text-light" value="Show me a list of movies!">
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<% include partials/footer.ejs %>

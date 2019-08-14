@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    /* padding: 5px */
+    background: linear-gradient(rgb(211, 248, 240), rgb(61, 95, 204));
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.movies{
+    display: inline-block;
+    padding: 5px;
+
+     border-width: 20px;
+    border-style: ridge;
+
+    border-color: darkblue; 
+    
+}
+
+img{
+    width: 300px;
+     border-width: 5px;
+    border-style: ridge;
+
+    border-color: red; 
+    
+
+    
+}

@@ -1,0 +1,183 @@
+img[src]{
+    height:250px;
+     width:300px;
+     margin-left: 20px;
+     margin-top: 30px;
+  }  
+  
+  button{
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  body {
+    /* Make sure to put the Google font in the head element as well. */
+    font-family: 'Oswald', sans-serif;
+    background: #eaf0f2;
+    /*margin: auto helps to expand the nav and footer across the web page. */
+    margin: auto;
+    color: white;
+}
+
+
+/* Tried to move the next rule to the bootom with the other footer rules but moving it affected the nav bar elements. 
+I wonder why?  */
+footer ul li{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    /* There appears to be some type of bolding on the example but no specifications in the instructions. */
+    font-weight: 900;
+    font-size: 18px;
+    /* Padding helps to create spacing between text.*/
+    padding:5px 5px 5px 5px;    
+    display: inline;
+    margin: 0 auto; 
+        
+}
+
+
+
+
+#logo{ 
+    display:inline;     
+    position: relative;
+    /* Wanted to remove some extra code by adding this selector to the .top_nav,ul ul rule but the other rule has other 
+    values that do not relate.  */
+    background:#263238; 
+    line-height: 45px;
+    padding:10px 20px 10px 20px;
+    font-size: 45px;
+    color:white; 
+    font-weight: 900;  
+}
+
+.top_nav{
+    display: inline;
+    position: relative;
+       
+}
+
+.top_nav, ul ul{
+    background:#263238; 
+    line-height: 45px;
+    /* Padding seems to be causing a border around the dropdown items.  */
+    padding:15px 20px;
+    font-size: 25px;
+    font-weight: 900;
+       
+}
+
+
+ul ul{
+    display: none;
+    position: absolute;
+    left: 0;
+    /* helping to align my top navigation bar with y dropdown menu. */
+    top:100%;
+    list-style: none;
+    
+}
+
+ul{
+    padding:0;
+    margin:0; 
+       
+}
+
+/* Refers to when the <ul> is hovered over <li> will display.*/
+li:hover ul{
+    display: block;
+    transition: .6s;
+           
+}
+
+/* The rule below refers to background color when hovering over
+the navbar. */
+.top_nav:hover {   
+    background: #546E7A; 
+    cursor: pointer; 
+    transition: .6s;
+/* Used pointer value to create a feel that the items are clickable. */     
+}
+
+/* The rule below refers to background color when hovering over
+the dropdown list. */
+ul ul li:hover {    
+    /* background: #546E7A;  */
+    color:#546E7A; 
+    background:#263238; 
+    cursor: pointer;  
+    transition: .6s;
+   
+    /* padding: 0px;   */
+}
+
+
+footer li:hover{
+    color: #CFD8DC; 
+    /* background: #CFD8DC;  */
+    /* color:#263238; */
+    cursor: pointer;   
+}
+
+/* Use the span tag to isolate the awesome font logo. */
+span{
+    background:#263238; 
+    color: white;
+    height:42px;
+    line-height: 35px;
+    /* Margin left helped to move the icon over a tad */
+    /* margin-left: 10px; */
+    padding: 15px px 35px;
+    float: inherit;
+         
+}
+
+#content{
+    font-size: 28px;
+    font-weight: 900;
+    color: black;
+}
+
+/* h2 element styled seperately due to unique values.  */
+h2{ 
+    color: #B0BEC5;
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+}
+
+footer{
+    background:#263238;
+    Padding: 10px;
+    Margin-top: 67px;
+    /* To align remember who is the parent element! Footer :-) */
+    text-align: center;
+}
+
+
+nav{
+    background:#263238;       
+    /* overflow: hidden looked nice but hid the drown. Creating a nav selector helped me to have a nav bar 
+    extend across the page. */
+      height: 65px;
+      Padding: 20px 0px 5px 0px;
+      
+    /*Setting the max-hight didnt work but setting the height worked to make the nav bar appear 
+    the same height as the other elements. I wonder if this is the proper way to do this.*/
+    
+}
+
+#trade_mark{
+    color:#B0BEC5;
+    font-size:16px;
+    font-weight: 900;
+}
+/* try to use this somewhere else. try to lessen your code. */
+.Dog{
+    color:white;
+    width: 3.9em;
+    text-align: center;
+    
+/* use nth child and other selectors in your code */
+}

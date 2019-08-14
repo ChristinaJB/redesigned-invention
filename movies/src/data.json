@@ -1,0 +1,36 @@
+[
+    {   
+        "id": "1",
+        "Title": "Howl's Moving Castle",
+        "Director": "Hayao Miyazaki",
+        "Cast": [
+                "Christian Bale", 
+                "Jean Simmons"
+                ],
+        "image": "https://live.staticflickr.com/8240/8609885920_e86d76f486_b.jpg"
+    },
+
+    {   
+        "id": "2",
+        "Title": "Spirited Away",
+        "Director": "Hayao Miyazaki",
+        "Cast": [
+                "Daveigh Chase", 
+                "Jason Marsden"
+                ],
+        "image": "https://live.staticflickr.com/8524/8610400035_f3e872e953_b.jpg"
+    },
+
+    {   
+        "id": "3",
+        "Title": "Princess Mononoke",
+        "Director": "Hayao Miyazaki",
+        "Cast": [
+                "Gillian Anderson", 
+                "Billy Crudup"
+                ],
+        "image": "https://live.staticflickr.com/8528/8611414556_2d616aed84_b.jpg"
+    }
+]
+
+

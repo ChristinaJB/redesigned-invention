@@ -1,0 +1,29 @@
+#homePage{
+
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    background:url("img/636021968863655744-ThinkstockPhotos-487619254.jpg") 
+    center center no-repeat;
+    height:649px;
+    
+    
+    background-size: cover;
+}
+
+#index{
+
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+ 
+} 
+
+
+
+.home{
+    margin-top: 110px;
+}
+
+#poster{
+margin-bottom: 20%;
+}
+
