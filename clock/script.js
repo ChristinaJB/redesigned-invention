@@ -115,26 +115,3 @@ function drawHand(ctx, pos, length, width) {
 
 
 
-
-
-// // Assigning document.body.style to x globally so that I do not have to write it over.
-// var x = document.body.style;
-// // styling the background color with the first index in the array color.
-// x.backgroundColor = color[0];
-// // var needs to assigned globally because if not the formula that is running the loop would only run once.
-// var i = 0;
-
-
-// // Placing a function inside of a set interval.
-// setInterval(
-//   function change() {
-// // Add the element to be styled  (x) by the array color. i will iterate through the colors. 
-//     x.backgroundColor = color[i];
-// // statement below explaied: i is already 0. 0+1=1, the molulus of 1%18 (remainder from 1 divided by color.length which is 18) equals 1.
-// // 1 re enters the function through the set interval and becomes i. So on and so forth.
-//     i = (i + 1) % color.length;
-//   }, 
-// // interval the change function every 1sec.
-// 1000);
-
-
